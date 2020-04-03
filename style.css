@@ -97,11 +97,11 @@ color: #7E7E7E;
 }
 .slid {
     width: 428px;
-    height: 685.44px;
     margin: auto;
     margin-top:100px; 
     padding-top: 40.29px;
     align-items: center;
+    margin-bottom: 100px;
     }
 .slid .slick-dots{
 display: flex;
@@ -885,3 +885,63 @@ color: #000000;
                     line-height: 19px;
                     color: #C07CF8;
                   }
+
+
+
+.program-block{
+    width: 1024px;
+    margin: 0 auto;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.program-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.program-item{
+    flex: 0 0 48%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.program-dates-wr{
+    flex: 0 0 120px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.program-month{
+    font-size: 12px;
+}
+.program-info-title{
+    font-size: 14px;
+    font-weight: bol`d;
+    margin-bottom: 20px;
+}
+.program-dates{
+    font-size: 24px;
+}
+.program-info li{
+    padding-left: 18px;
+    margin-bottom: 10px;
+    line-height: 1.45em;
+    position: relative;
+    color: #7E7E7E;
+}
+.program-info li:before{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background-color: #C07CF8;
+
+}
